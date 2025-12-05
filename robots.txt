@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://instagramnamestyle.co.in/sitemap.xml
+
+# Targeting India users 🇮🇳
+Host: instagramnamestyle.co.in
