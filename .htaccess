@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# ✅ Redirect all 404 or broken links to homepage
-ErrorDocument 404 https://instagramnamestyle.co.in/
-
-# ✅ Catch-all redirect for any other broken or unknown URL
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ https://instagramnamestyle.co.in/ [R=301,L]
